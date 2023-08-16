@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/128/833/833281.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="./static/main.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Mysti's Gallery</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="navbar" id="navbar">
+        <div class="navbar-brand">
+          <a href="#" class="navbar-logo">Logo</a>
+        </div>
+        <i id="navbar-button" class="fa fa-bars"></i>
+        <div id="navbar-menu" class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+     
+    <div class="gallery" id="gallery">
+     
+      <div class="description">
+        <h1><span id="element"></span></h1>
+        <p>
+          Lorem ipsum dolor, sit a met consectetur adipisicing elit. Impedit qui
+          aliquid architecto alias facilis quos rem temporibus, voluptate
+          laboriosam perspiciatis deserunt. Consequatur quae quia tempora
+          eveniet nulla accusamus reprehenderit impedit. Earum eiussdam
+          consequatur rem, aliquam perferendis possimus harum necessitatibus
+          optio facere doloribus quae, aperiam accusamus id porro numquam
+          dolorum commodi non. Fugiat, earum rem est accusamus porro similique
+          magni eaque?
+        </p>        
+        <!-- <button id="counter">Console log counter</button> -->
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <img src="/img/d1.jpg" alt="d1" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/doodle.jpg" alt="doodle" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/flowers.jpg" alt="flowers" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/kali.jpg" alt="kali" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/maple.jpg" alt="maple" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/img/sketchy.jpg" alt="sketchy" class="card-img" />
+          <div class="card-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+              omnis incidunt veritatis nostrum reiciendis nesciunt voluptatibus
+              molestias at asperiores cumque cupiditate accusantium est ipsam,
+              nemo animi? Aspernatur dicta ratione expedita.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./static/script.js" defer></script>
+      <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Gallery','Gallery'],
+        typeSpeed: 100,
+        backSpeed: 130,
+        loop:true
+      });
+    </script>
+  </body>
+</html>
