@@ -176,7 +176,7 @@ header{
   min-height: 100%;
   filter: brightness(0.3);
   background: #f9f9f9  no-repeat;
-  background-image: url("img/background.jpg");
+  background-image: url("/img/background.jpg");
   background-position: center;
   background-size: cover;
 }
