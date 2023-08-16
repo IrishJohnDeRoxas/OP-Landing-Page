@@ -174,7 +174,11 @@ header{
   min-height: 100%;
   filter: brightness(0.3);
   background: #f9f9f9  no-repeat;
+<<<<<<< HEAD
   background-image: url("../img/background.jpg");
+=======
+  background-image: url(IrishJohnDeRoxas/OP-Landing-Page/blob/main/img/background.jpg);
+>>>>>>> 2f7accd38a2b801d49bb1323b30699f1e11a9a75
   background-position: center;
   background-size: cover;
 }
